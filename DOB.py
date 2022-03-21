@@ -1,12 +1,15 @@
-import datetime
+val=int(input('enter a number'))
+if(val % 2==0):
+    print(val," Is EVEN number")
+else:
+    print(val,"Is ODD")
 
+# Python program to check if the input number is odd or even.
+# A number is even if division by 2 gives a remainder of 0.
+# If the remainder is 1, it is an odd number.
 
-name = input("Enter the name : ")
-year = int(input('Enter a year '))
-month = int(input('Enter a month '))
-day = int(input('Enter a day '))
-date1 = datetime.date(year, month, day)
-print(name)
-print(date1)
-
-print("congratulation",name,"you will be hundred years old in",date1.year+100)
+# # num = int(input("Enter a number: "))
+# # if (num % 2) == 0:
+# #    print("{0} is Even".format(num))
+# # else:
+# #    print("{0} is Odd".format(num))
